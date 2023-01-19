@@ -1,0 +1,19 @@
+{
+  "name": "4.challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianoeq/w1ch4-mariano-quiroga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianoeq/w1ch4-mariano-quiroga/issues"
+  },
+  "homepage": "https://github.com/marianoeq/w1ch4-mariano-quiroga#readme"
+}
