@@ -1,0 +1,117 @@
+$primary-font-family: "Nunito", sans-serif;
+$primary-color: rgba(243, 131, 33, 0.966);
+
+html,
+body {
+  margin: 0 auto;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  padding: 0.5em 1em;
+  flex-wrap: wrap;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+  font-family: $primary-font-family;
+  font-weight: 800;
+}
+ul li a {
+  display: block;
+  padding: 8px 25px;
+  color: #333;
+  text-decoration: none;
+  font-family: $primary-font-family;
+  font-weight: 800;
+}
+ul li a:hover {
+  color: $primary-color;
+  text-decoration: underline;
+}
+ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  text-decoration: underline;
+  width: 10rem;
+  z-index: 999;
+}
+ul li:hover ul.dropdown {
+  display: block; /* Display the dropdown */
+}
+
+.buy-link {
+  border: 2px solid $primary-color;
+  border-radius: 0% 10% 34% 34%;
+  color: black;
+  background: white;
+}
+
+.buy-link:hover {
+  color: white;
+  background-color: $primary-color;
+  text-decoration: none;
+}
+main > p:nth-child(n) {
+  font-size: 1.5rem;
+  font-family: $primary-font-family;
+  color: orange;
+  font-weight: 800;
+  padding: 1em 0 0 1em;
+}
+main > div > p:nth-child(n) {
+  font-size: 4.5rem;
+  font-family: "Nunito", sans-serif;
+  color: black;
+  font-weight: 800;
+  padding: 0 0.3em;
+  margin: 0.5em 0;
+}
+
+.first-container-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-view-all {
+  background-color: $primary-color;
+  color: white;
+  width: 150px;
+  height: 80px;
+  font-family: $primary-font-family;
+  font-weight: 800;
+  font-size: 1.3rem;
+  border: 2px solid $primary-color;
+  border-radius: 0% 10% 34% 34%;
+  margin: 0 20px;
+}
+
+.btn-view-all:hover {
+  background-color: white;
+  color: $primary-color;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.img-container img {
+  border-radius: 5%;
+  margin-bottom: 5px;
+}
