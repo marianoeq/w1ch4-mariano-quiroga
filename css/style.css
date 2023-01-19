@@ -1,1 +1,64 @@
-/* font-family: 'Nunito', sans-serif; */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 auto;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  padding: 0.5em 1em;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+ul li a {
+  display: block;
+  padding: 8px 25px;
+  color: #333;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+ul li a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  text-decoration: underline;
+  width: 10rem;
+}
+
+ul li:hover ul.dropdown {
+  display: block; /* Display the dropdown */
+}
+
+.buy-link {
+  border: 2px solid orange;
+  border-radius: 0% 10% 34% 34%;
+}
+
+/*# sourceMappingURL=style.css.map */
